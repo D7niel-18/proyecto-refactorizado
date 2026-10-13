@@ -1,12 +1,12 @@
 // Paleta de Colores
-$color-primario: #004a99;
-$color-secundario: #00aaff;
-$color-fondo: #f4f4f4;
-$color-texto: #333;
-$color-oscuro: #222;
-$color-blanco: #ffffff;
-$color-gris-claro: #eee;
-$color-gris-texto: #777;
+$color-primario: #004E98;   // Azul oscuro (Header, títulos principales)
+$color-secundario: #3A6EA5; // Azul medio (Subtítulos, elementos secundarios)
+$color-acento: #FF6700;     // Naranja (Botones, hovers, elementos interactivos)
+$color-fondo: #EBEBEB;      // Gris claro (Fondo general de la web)
+$color-borde: #C0C0C0;      // Gris plateado (Bordes de cajas, inputs)
+$color-texto: #1A1A1A;      // Texto oscuro para legibilidad
+$color-blanco: #FFFFFF;     // Blanco para tarjetas y texto sobre azul/naranja
 
 // Tipografías
-$fuente-principal: Arial, sans-serif;
+$fuente-titulos: 'Montserrat', sans-serif;
+$fuente-cuerpo: 'Roboto', sans-serif;
