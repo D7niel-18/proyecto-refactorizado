@@ -1,34 +1,36 @@
 nav {
-    background-color: $color-primario; // Fondo azul oscuro
+    background-color: $color-primario;
     padding: 12px 40px;
 
     ul {
         margin: 0;
         padding: 0;
         list-style: none;
-        display: flex;             // Usamos Flexbox
-        justify-content: center;   // Centramos los elementos
-        gap: 20px;                 // Espacio entre enlaces
+        
+        // ---  Aqui he aplicado flexbox ---
+        display: flex;
+        justify-content: center;
+        gap: 20px;
 
-        li a {
-            color: $color-blanco;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 1.1em;
-            padding: 8px 16px;
-            border-radius: 4px;
-            transition: all 0.3s ease;
-
-            // Enlace activo (página actual) en NARANJA
-            &.activo {
-                background-color: $color-acento;
+        li {
+            a {
                 color: $color-blanco;
-            }
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 1.1em;
+                padding: 8px 16px;
+                border-radius: 4px;
+                transition: all 0.3s ease;
 
-            // Efecto al pasar el ratón (Hover)
-            &:hover {
-                background-color: $color-secundario;
-                color: $color-blanco;
+                &:hover {
+                    background-color: $color-secundario;
+                    color: $color-blanco;
+                }
+
+                &.activo {
+                    background-color: $color-acento; // Naranja
+                    color: $color-blanco;
+                }
             }
         }
     }

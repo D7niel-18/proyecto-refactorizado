@@ -66,12 +66,12 @@ nav ul li a {
   border-radius: 4px;
   transition: all 0.3s ease;
 }
-nav ul li a.activo {
-  background-color: #FF6700;
-  color: #FFFFFF;
-}
 nav ul li a:hover {
   background-color: #3A6EA5;
+  color: #FFFFFF;
+}
+nav ul li a.activo {
+  background-color: #FF6700;
   color: #FFFFFF;
 }
 
