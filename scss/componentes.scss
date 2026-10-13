@@ -1,0 +1,71 @@
+.caja-contenido {
+    background-color: $color-blanco;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    .destacado {
+        font-size: 1.1em;
+    }
+}
+
+.caja-placeholder {
+    background-color: $color-gris-claro;
+    border: 1px dashed #ccc;
+    padding: 40px;
+    text-align: center;
+    color: $color-gris-texto;
+}
+
+.subtitulo-seccion {
+    color: #555;
+    margin-top: 30px;
+}
+
+.lista-habilidades {
+    list-style: square;
+    padding-left: 20px;
+
+    li {
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+}
+
+#proyectos-destacados {
+    margin-top: 30px;
+}
+
+/* Formulario de contacto */
+.form-contacto {
+    margin-top: 20px;
+
+    .grupo-form {
+        margin-bottom: 15px;
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-family: inherit;
+        }
+    }
+
+    .btn {
+        background-color: $color-primario;
+        color: $color-blanco;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1em;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}

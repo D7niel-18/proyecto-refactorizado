@@ -1,0 +1,27 @@
+nav {
+    background-color: $color-texto;
+    padding: 10px 40px;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+
+        li {
+            display: inline-block;
+            margin-right: 20px;
+
+            a {
+                color: $color-blanco;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 1.1em;
+
+                &.activo {
+                    color: $color-secundario;
+                }
+            }
+        }
+    }
+}

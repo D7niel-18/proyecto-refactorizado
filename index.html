@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
     <title>Mi Sitio Web - Inicio</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
@@ -15,22 +15,16 @@
 
     <nav>
         <ul>
-            <li>
-                <a href="index.html">Inicio</a>
-            </li>
-            <li style="display: inline-block; margin-right: 20px;">
-                <a href="sobre.html">Sobre mí</a>
-            </li>
-            <li style="display: inline-block;">
-                <a href="contacto.html">Contacto</a>
-            </li>
+            <li><a href="index.html" class="activo">Inicio</a></li>
+            <li><a href="sobre.html">Sobre mí</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
         </ul>
     </nav>
 
     <main>
-        <section>
+        <section id="bienvenida" class="caja-contenido">
             <h2>¡Bienvenido a mi espacio!</h2>
-            <p>
+            <p class="destacado">
                 Hola, soy un estudiante apasionado del Desarrollo de Aplicaciones Web. Este es mi rincón digital donde 
                 comparto mis proyectos, mi aprendizaje y mi evolución en el mundo del código.
             </p>
@@ -39,9 +33,9 @@
             </p>
         </section>
 
-        <section>
+        <section id="proyectos-destacados">
             <h3>Proyectos Destacados (Próximamente)</h3>
-            <div>
+            <div class="caja-placeholder">
                 Aquí irán mis mejores trabajos. ¡Vuelve pronto!
             </div>
         </section>
@@ -49,7 +43,7 @@
 
     <footer>
         <p>&copy; 2025 Mi Portfolio Personal. Todos los derechos reservados.</p>
-        <p>Diseñado (con mucho caos) para la clase de DIW.</p>
+        <p class="copy-peq">Diseñado (con mucho caos) para la clase de DIW.</p>
     </footer>
 
 </body>

@@ -1,0 +1,146 @@
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 20px 40px;
+  min-height: 60vh;
+}
+
+p {
+  line-height: 1.6;
+}
+
+h2 {
+  color: #004a99;
+  border-bottom: 2px solid #004a99;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #333;
+}
+
+header {
+  background-color: #004a99;
+  color: #ffffff;
+  padding: 20px 40px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+header p {
+  margin: 5px 0 0 0;
+  font-style: italic;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px 40px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+nav ul li a.activo {
+  color: #00aaff;
+}
+
+.caja-contenido {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.caja-contenido .destacado {
+  font-size: 1.1em;
+}
+
+.caja-placeholder {
+  background-color: #eee;
+  border: 1px dashed #ccc;
+  padding: 40px;
+  text-align: center;
+  color: #777;
+}
+
+.subtitulo-seccion {
+  color: #555;
+  margin-top: 30px;
+}
+
+.lista-habilidades {
+  list-style: square;
+  padding-left: 20px;
+}
+.lista-habilidades li {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#proyectos-destacados {
+  margin-top: 30px;
+}
+
+/* Formulario de contacto */
+.form-contacto {
+  margin-top: 20px;
+}
+.form-contacto .grupo-form {
+  margin-bottom: 15px;
+}
+.form-contacto .grupo-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.form-contacto .grupo-form input, .form-contacto .grupo-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+.form-contacto .btn {
+  background-color: #004a99;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #222;
+  color: #aaa;
+  padding: 20px 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+footer p {
+  margin: 0;
+}
+footer p.copy-peq {
+  margin: 5px 0 0 0;
+  font-size: 0.9em;
+}/*# sourceMappingURL=styles.css.map */
