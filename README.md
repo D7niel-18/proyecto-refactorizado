@@ -93,7 +93,7 @@ El diseño de  utiliza la metodología de parciales (`_nombre.scss`) para garant
   * Eliminación del bloque `<style>` en `sobre.html`.
   * Creación e integración de `contacto.html`.
   * Centralización de reglas CSS en la estructura de parciales SASS.
-* [ ] **Fase 2: La Evolución (Diseño y Personalización)**
+* [x] **Fase 2: La Evolución (Diseño y Personalización)**
   * Aplicación de una nueva paleta de colores coherente.
     Para esta fase utilizaré una web llamada coolors.co donde puedes generar una paleta de colores completa. En mi caso he generado la siguiente paleta de colores:
 
